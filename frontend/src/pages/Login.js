@@ -59,7 +59,7 @@ const Login = () => {
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     className="register-form-input"
-                                    placeholder="eshaan@example.com"
+                                    placeholder="john@example.com"
                                     required
                                 />
                             </div>
