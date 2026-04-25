@@ -5,13 +5,13 @@ cd backend
 npm install
 
 # Start backend in background
-npm start 
+npm start &
 
 # Move into frontend and install dependencies
 cd ../frontend
 npm install
 
-# Build frontend if needed (for React/Next.js)
+# Build frontend
 npm run build
 
 # Start frontend
