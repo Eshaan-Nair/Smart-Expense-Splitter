@@ -462,47 +462,6 @@ smart-expense-splitter/
 
 ---
 
-## Screenshots
-
-<div align="center">
-
-### <u>Register</u> - *User Registration Page*
-![Register](./screenshots/register.png)
-
-### <u>Login</u> - *User Login Page*
-![Login](./screenshots/login.png)
-
-### <u>Dashboard</u> - *User Account Dashboard*
-![Dashboard](./screenshots/dashboard.png)
-
-### <u>Profile</u> - *User Profile Page*
-![Profile](./screenshots/profilePage.png)
-
-### <u>Add Expense</u> - *Equal Split Between Group Members*
-![Equal](./screenshots/expenseEqual.png)
-
-### <u>Add Expense</u> – *Custom Unequal Split Among Group Members*
-![Custom](./screenshots/expenseCustom.png)
-
-### <u>Create Group</u> - *Create New Group*
-![Creategroup](./screenshots/createGroup.png)
-
-### <u>Group Details</u> - *View group Information*   
-![Details](./screenshots/groupDetails.png)
-
-### <u>View All Groups</u> - *See All Groups User is in*
-![Allgroups](./screenshots/allGroups.png)
-
-### <u>Settlements</u> - *Minimize Transactions Between Members*
-![Settlements](./screenshots/allSettlements.png)
-
-### <u>All Expenses</u> - *Expense History*
-![Expenses](./screenshots/allExpenses.png)
-
-</div>
-
----
-
 ## Key Learning Points
 
 ### Technical Skills Demonstrated
