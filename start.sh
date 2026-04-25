@@ -5,7 +5,7 @@ cd backend
 npm install
 
 # Start backend in background
-npm start &
+npm start 
 
 # Move into frontend and install dependencies
 cd ../frontend

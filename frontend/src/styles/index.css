@@ -1,6 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&family=Space+Grotesk:wght@400;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* Colors */
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #ffffff;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --border-color: #e5e7eb;
+  
+  /* Accents */
+  --accent-black: #000000;
+  --accent-white: #ffffff;
+  --accent-green: #059669; /* For positive balance/success */
+  --accent-red: #dc2626;   /* For negative balance/error */
+  
+  /* Typography */
+  --font-primary: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+}
 
 * {
   margin: 0;
@@ -9,9 +30,80 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font-primary);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography Utilities */
+.text-display-solid {
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  color: var(--text-primary);
+}
+
+.text-display-outline {
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--text-primary);
+}
+
+.text-subtitle {
+  font-family: var(--font-primary);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+/* Minimalist Button Base */
+.btn-minimal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-minimal-solid {
+  background: var(--accent-black);
+  color: var(--accent-white);
+  border: 2px solid var(--accent-black);
+}
+
+.btn-minimal-solid:hover {
+  background: transparent;
+  color: var(--accent-black);
+}
+
+.btn-minimal-outline {
+  background: transparent;
+  color: var(--accent-black);
+  border: 1px solid var(--border-color);
+}
+
+.btn-minimal-outline:hover {
+  border-color: var(--accent-black);
+}
+
+/* Fine Divider Lines */
+.fine-border {
+  border: 1px solid var(--border-color);
+}
+.fine-border-b {
+  border-bottom: 1px solid var(--border-color);
+}
+.fine-border-t {
+  border-top: 1px solid var(--border-color);
 }
